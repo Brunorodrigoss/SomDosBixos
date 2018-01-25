@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5e9b9"
+    android:padding="16dp"
+    tools:context="somdosbixos.cursoandroid.com.somdosbixos.MainActivity">
+
+    <ImageView
+        android:id="@+id/logoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/caoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/logoId"
+        android:layout_below="@+id/logoId"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/cao" />
+
+    <ImageView
+        android:id="@+id/gatoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/logoId"
+        android:layout_below="@id/logoId"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/gato" />
+
+    <ImageView
+        android:id="@+id/leaoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/macacoId"
+        android:layout_alignLeft="@+id/caoId"
+        android:src="@drawable/leao" />
+
+    <ImageView
+        android:id="@+id/macacoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/gatoId"
+        android:layout_below="@id/gatoId"
+        android:src="@drawable/macaco" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ovelhaId"
+        android:src="@drawable/ovelha"
+        android:layout_below="@id/leaoId"
+        android:layout_alignLeft="@id/leaoId"/>
+
+    <ImageView
+        android:id="@+id/vacaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/gatoId"
+        android:layout_below="@id/leaoId"
+        android:src="@drawable/vaca" />
+
+    <ImageView
+        android:id="@+id/direitosId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/vacaId"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/direitos" />
+</RelativeLayout>
